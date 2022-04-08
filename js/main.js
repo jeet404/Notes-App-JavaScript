@@ -44,7 +44,6 @@ function showNotes() {
 }
 
 function deleteNote(index) {
-
   let notes = localStorage.getItem("notes");
   if (notes == null) {
     notesObj = [];
@@ -70,11 +69,3 @@ search.addEventListener("input", function () {
     }
   });
 });
-
-/*
-Further Features:
-1. Add Title
-2. Mark a note as Important
-3. Separate notes by user
-4. Sync and host to web server 
-*/
